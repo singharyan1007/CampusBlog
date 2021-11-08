@@ -1,0 +1,2 @@
+# CampusBlog
+Blogging page
