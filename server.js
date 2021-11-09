@@ -30,7 +30,7 @@ app.post('/upload', (req, res) => {
         if(err){
             throw err;
         } else{
-            // our image upload path
+            
             res.json(`uploads/${imagename}`)
         }
     })
