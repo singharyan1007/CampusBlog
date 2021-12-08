@@ -68,6 +68,7 @@ publishBtn.addEventListener('click', () => {
             article: articleFeild.value,
             bannerImage: bannerPath,
             publishedAt: `${date.getDate()} ${months[date.getMonth()]} ${date.getFullYear()}`
+            //author name
         })
         .then(() => {
             location.href = `/${docName}`;
@@ -77,3 +78,4 @@ publishBtn.addEventListener('click', () => {
         })
     }
 })
+//checking for existing blog edits

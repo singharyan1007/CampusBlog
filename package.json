@@ -11,8 +11,7 @@
   "dependencies": {
     "express-fileupload": "^1.2.1",
     "express.js": "^1.0.0",
-    "firebase": "^9.4.0",
     "firebaseui": "^6.0.0",
-    "nodemon": "^2.0.14"
+    "nodemon": "^2.0.15"
   }
 }
