@@ -19,3 +19,11 @@ const createBlog = (blog) => {
     </div>
     `;
 }
+function blogNav() {
+    var nav = document.getElementById('toggle-collapse');
+    if (nav.className === 'navbar') {
+        nav.className += "collapse";
+    } else {
+        nav.className='navbar'
+    }
+}

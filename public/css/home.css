@@ -114,3 +114,14 @@ h1{
     background: #1b1b1b;
     color: #fff;
 }
+@media screen and (min-width:360px){
+    
+.blogs-section {
+    word-break: break-word;
+    width: 100%;
+    padding: 50px 5vw;
+    
+    /* grid-template-columns: repeat(2, 1fr); */
+    
+}
+}
