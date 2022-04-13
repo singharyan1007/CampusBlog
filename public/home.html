@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CampusConnect : Blog</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 </head>
+
 <body>
 
-    <nav class="navbar" id="toggle-collapse">
-        <h1>CampusConnect</h1>
-        <ul class="links-container">
-            <li class="link-item"><a href="/" class="link">home</a></li>
-            <li class="link-item"><a href="/editor" class="link">editor</a></li>
+    <nav class="navbar">
+        <div class="logo">CampusConnect</div>
+        <ul class="nav-links">
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <div class="menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Editor</a></li>
+            </div>
         </ul>
     </nav>
 
@@ -46,6 +54,7 @@
 
     <script src="js/firebase.js"></script>
     <script src="js/home.js"></script>
-    
+
 </body>
+
 </html>
